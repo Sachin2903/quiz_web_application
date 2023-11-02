@@ -72,9 +72,11 @@ export function Quizstructure() {
     function changeQuestion() {
         setAnsStyle(-1)
         if (quepage < 9) {
+            console.log('called');
             let que = Question();
             setMainQuestion(que)
             setQuepage(quepage + 1)
+            setPerSec(60)
             if (questionBank.length === 1) {
                 setbtnState("Submit");
             }
@@ -131,7 +133,7 @@ export function Quizstructure() {
                             <h1>Total Score 20</h1>
                         </div>
                         {
-                            (marks < 12) ? (<div className={styles.lastDiv}><p className={styles.lastDivTry}>You Fail But you can retry</p><button onClick={changeQuestion} className={styles.restartbtn} >Restart</button></div>) : (<h1>Great you pass the test</h1>)
+                            (marks < 12) ? (<div className={styles.lastDiv}><p className={styles.lastDivTry}>You Fail But you can retry</p><button onClick={changeQuestion} className={styles.restartbtn} >Restart</button></div>) : (<h3>Great you pass the test</h3>)
                         }
                     </Fragment>
                 ) : (
