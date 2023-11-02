@@ -1,0 +1,198 @@
+.quizbox {
+    padding: 20px;
+    min-width: 300px;
+    width: 300px;
+    height:480px;
+    min-height: 480px;
+    background-color: rgb(240, 208, 208);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    border-top-left-radius:10px ;
+    box-shadow: 1.5px 1.5px 1px black;
+}
+
+.question {
+    margin-top: 20px;
+    font-weight: 700;
+    font-family: monospace;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    height: 22%;
+    padding: 7px;
+    box-shadow: 1px 1px 1px black;
+    background-color: white;
+}
+
+.optiondiv {
+    width: 100%;
+    min-height: 60%;
+    padding: 20px;
+}
+
+.optionoption {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    width: 100%;
+    min-height: 21%;
+    text-align: center;
+    
+
+}
+
+.optionoptionselect {
+    cursor: pointer;
+    background-color: rgb(94, 205, 242);
+    border: 0;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    width: 100%;
+    min-height: 21%;
+    text-align: center;
+
+}
+
+.optionoption:hover {
+    box-shadow: 1px 1px 1px black;
+
+
+
+}
+
+.nextbtn {
+    background-color: aquamarine;
+    width: 80px;
+    height: 40px;
+    border-radius: 10%;
+    border: 0;
+
+    font-size: 1.19rem;
+    font-family: monospace;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px black;
+    float: right;
+}
+
+.restartbtn {
+    color:white;
+    width: 80px;
+    height: 50px;
+    border-radius: 10%;
+    border: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px black;
+    background-color: rgb(238, 72, 72);
+}
+
+.btndiv {
+
+    width: 100%;
+}
+
+.nextbtn:hover {
+    transform: scale(0.96);
+}
+
+.restartbtn:hover {
+    transform: scale(0.96);
+
+}
+
+.timetime {
+    margin-top: -10px;
+    position: relative;
+   z-index: 9;
+    align-self: flex-end;
+    border-radius: 44px;
+   width: 60px;
+   height: 60px;
+   margin-right: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    cursor: wait;
+    background-color: rgb(255, 212, 57);
+     box-shadow: 2px 2px 1px black;
+}
+
+
+.perTime{
+    position: absolute;
+    z-index: 99;
+    top:-22px;
+    right: -22px;
+    box-shadow: 1.5px 1.5px 1px black;
+    width: 45px;
+    height: 45px;
+    border-radius: 44px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    cursor: wait;
+    background-color: rgb(122, 209, 249);
+    
+}
+.perTimeAnimation{
+    animation: Scale 1s ease-in-out infinite;
+}
+@keyframes Scale {
+    0% {
+        transform: scale(1.1);
+        background-color:rgb(252, 105, 105);
+        
+    }
+    100% {
+        transform: scale(1);
+      
+    }
+}
+.loader {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    font-weight: bold;
+    height: 13px;
+    font-size: 0.5px;
+    border-bottom: 1px solid black;
+ font-family: monospace;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    left: 0;
+    transition: width 0.8s ease-in-out;
+    text-align: center;
+}
+.lastDiv{
+ 
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.lastDivTry{
+    color:black;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 15px;
+}
