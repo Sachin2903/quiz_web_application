@@ -7,14 +7,7 @@
     <li> Progress bar that track the number of question attempt</li>
     <li>Can have more than 1 attempt if not get passing marks </li>
 </ul>
-
-<pre>
-1.-  Choose random question from a bunch of question of JSON data</li>
-2.-  Timer for complete Quiz and for per question</li>
-3.-  Progress bar that track the number of question attempt</li>
-4.-  Can have more than 1 attempt if not get passing marks </li>
-</pre>
-Many more ....
+### Many more ....
 
 
 ### JSON DATA
