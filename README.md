@@ -7,7 +7,8 @@
 4)- Can have more than 1 attempt if not get passing marks 
 
 ### JSON DATA
-[{
+<pre>
+    [{
     question:"It was Sunday on Jan 1, 2006. What was the day of the week Jan 1, 2010?",
     options:["Sunday","Saturday","Friday","Wednesday"],
     answer:3
@@ -48,6 +49,8 @@
     options:["481","480" ,"490","482"],
     answer:2
 }];
+
+</pre>
 
 
 many more .....
