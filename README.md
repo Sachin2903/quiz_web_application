@@ -1,10 +1,14 @@
 # Deployment Link    https://quiz-web-application-cfjs.vercel.app/
 
 ### features:-
-1)- Choose random question from a bunch of question of JSON data
-2)- Timer for complete Quiz and for per question
-3)- Progress bar that track the number of question attempt
-4)- Can have more than 1 attempt if not get passing marks 
+<ul>
+    <li>Choose random question from a bunch of question of JSON data</li>
+    <li>Timer for complete Quiz and for per question</li>
+    <li> Progress bar that track the number of question attempt</li>
+    <li>Can have more than 1 attempt if not get passing marks </li>
+</ul>
+Many more ....
+
 
 ### JSON DATA
 <pre>
